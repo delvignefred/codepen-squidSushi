@@ -31,8 +31,8 @@ body {
   align-items: center;
 
   & .canvas {
-    width: 88dvmin;
-    height: 38.5dvmin;
+    inline-size: 88dvmin;
+    block-size: 38.5dvmin;
 
     -webkit-box-reflect: below 0
       linear-gradient(
@@ -42,8 +42,8 @@ body {
       );
 
     & .scenary {
-      width: inherit;
-      height: inherit;
+      inline-size: inherit;
+      block-size: inherit;
 
       stroke-width: 10;
       -webkit-stroke-width: 10;
