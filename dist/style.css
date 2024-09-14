@@ -22,8 +22,8 @@ body {
   display: flex;
   overflow: hidden;
 
-  width: 100dvw;
-  height: 100dvh;
+  inline-size: 100dvw;
+  block-size: 100dvh;
 
   background: var(--system-color-background);
 
