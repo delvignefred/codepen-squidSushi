@@ -77,8 +77,6 @@ body {
     stroke-width: 8;
     -webkit-fill: none;
     fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
 
     opacity: 0.3;
 
@@ -89,7 +87,7 @@ body {
       stroke: var(--system-color-monokai-pink);
     }
 
-    & :is(path:nth-last-of-type(1), path:nth-last-of-type(2)) {
+    & path {
       -webkit-stroke: var(--system-color-monokai-blue);
       stroke: var(--system-color-monokai-blue);
     }
