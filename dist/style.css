@@ -42,8 +42,8 @@ body {
       );
 
     & .scenary {
-      inline-size: inherit;
-      block-size: inherit;
+      inline-size: 100%;
+      block-size: 100%;
 
       stroke-width: 10;
       -webkit-stroke-width: 10;
